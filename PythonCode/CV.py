@@ -2,6 +2,21 @@ import cv2
 import controller as cnt
 from cvzone.HandTrackingModule import HandDetector
 
+
+#================================   deal with camera  ====================================
+#1 make video object 
+#2 read the frames
+#3 show the frames
+#4 flip the image
+#===================================== detect hand  ======================================
+#1 make detector object
+#2 find hands in the frame and draw on the frame
+#3 detect fingers movement
+#4 use it to control
+#====================================  comunicate with microcontroller ===========================
+
+
+
 detector=HandDetector(detectionCon=0.8,maxHands=1)
 
 video=cv2.VideoCapture(1)
@@ -35,14 +50,3 @@ while True:
         break
 
 
-#================================   deal with camera  ====================================
-#1 make video object 
-#2 read the frames
-#3 show the frames
-#4 flip the image
-#===================================== detect hand  ======================================
-#1 make detector object
-#2 find hands in the frame and draw on the frame
-#3 detect fingers movement
-#4 use it to control
-#====================================  comunicate with microcontroller ===========================
