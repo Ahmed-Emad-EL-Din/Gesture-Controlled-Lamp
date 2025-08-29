@@ -75,12 +75,20 @@ This project reflects how combining **Power Electronics**, **Embedded Systems**,
 
 ```
 Gesture-Controlled-Lamp/
-│── Python_Code/
-│   ├── main.py          # OpenCV + hand gesture detection
-│   ├── controller.py    # Serial communication with Arduino/ESP8266
-│
-│── Arduino_Code/
-│   ├── lamp_control.ino # Microcontroller code for relay control
+│── Arduino/
+  |-- Python_Code/
+     ├── main.py          # OpenCV + hand gesture detection
+     ├── controller.py    # Serial communication with Arduino/ESP8266
+  │-- Arduino IDE/
+     |-- Arduino-py-communication.ino
+|
+|
+|-- ESP8266/
+  |-- PythonCode/
+     |-- ESPmain.py
+     |-- ESPController.py
+  │-- Arduino IDE/
+     |-- HansGesture-lamp-Controller.ino
 │
 │── Proteus_Simulation/
 │   ├── lamp_circuit.pdsprj  # Simulation project file
