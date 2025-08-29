@@ -106,16 +106,28 @@ Gesture-Controlled-Lamp/
 
    ```bash
    pip install opencv-python cvzone pyserial
+   pip install websocket-clinet
    ```
 2. Connect Arduino/ESP8266 to PC and note the COM port
-3. Upload `lamp_control.ino` to Arduino/ESP8266 using Arduino IDE
-4. Run Python script:
 
-   ```bash
-   python main.py
-   ```
-5. Move your hand in front of the camera → Control the lamp!
+3.
+🟢 Case 1: Arduino (Real or Proteus)
+Communication: Serial (via COM port / com0com in Proteus)
 
+Steps:
+
+Upload arduino-py-communication.ino to Arduino.
+
+Run EspMain.py on PC.
+
+🟠 Case 2: ESP8266
+Communication: HTTP requests
+
+Steps:
+
+Upload HandGesture-Lamp-Controller to ESP8266.
+
+Run main.py on PC.
 ---
 
 ## 🔹 Demo Video
