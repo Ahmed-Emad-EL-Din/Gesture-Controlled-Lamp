@@ -135,7 +135,10 @@ Run main.py on PC.
 ## 🔹 Demo Video
 
 🎥 Check out the demo showing both **Proteus simulation** and **real hardware test**.
-👉
+
+
+[![Watch the video](https://img.youtube.com/vi/Wrxbg5m6t_M/0.jpg)](https://youtu.be/Wrxbg5m6t_M)
+
 
 ---
 
