@@ -126,7 +126,9 @@ Communication: HTTP requests
 Steps:
 
 Upload HandGesture-Lamp-Controller to ESP8266.
+
 Run main.py on PC.
+
 
 ---
 
